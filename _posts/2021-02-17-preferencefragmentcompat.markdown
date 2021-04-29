@@ -38,7 +38,7 @@ The UI illustrated above may either be inflated from an XML document, or built i
 
 {% gist 31dc7ef76d7eb3311b164c259b8d9140 settings.xml %}
 
-Inside the *[onCreatePreferences](https://developer.android.com/reference/androidx/preference/PreferenceFragmentCompat#onCreatePreferences(android.os.Bundle,%20java.lang.String))* function of your *PreferenceFragmentCompat* subclass, call *[setPreferencesFromResource](https://developer.android.com/reference/androidx/preference/PreferenceFragmentCompat#setPreferencesFromResource(int,%20java.lang.String))* to load the layout and perform inflation. In terms of fragment lifecycle, *setPreferencesFromResource* will be called from the superclass's *onCreate* function.
+Inside the *[onCreatePreferences](https://developer.android.com/reference/androidx/preference/PreferenceFragmentCompat#onCreatePreferences(android.os.Bundle,%20java.lang.String))* function of your *PreferenceFragmentCompat* subclass, call *[setPreferencesFromResource](https://developer.android.com/reference/androidx/preference/PreferenceFragmentCompat#setPreferencesFromResource(int,%20java.lang.String))* to load the layout and perform inflation. In terms of fragment lifecycle, *setPreferencesFromResource* will be called via the superclass's *onCreate* function.
 
 <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:preference/preference/src/main/java/androidx/preference/PreferenceFragmentCompat.java;l=161;drc=e865a9bd80c7d405a694750786977d0eb2012e0f;bpv=0"><img src="/images/csandroid-onCreate.png"/></a>
 
