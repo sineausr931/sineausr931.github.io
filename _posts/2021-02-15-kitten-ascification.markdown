@@ -127,3 +127,8 @@ IIIIII:::!!!!!!!!!"" """"""!!!!!!!!!!!!!!!!:::I:*######################***####**
 <img src="/images/kitten.jpg"/>
 
 {% gist 45057a0d21c03744b84051610f719012 Convert.java %}
+
+But then there are easier ways yet, like using an ascii web browser such as [browsh](https://github.com/browsh-org/browsh)
+
+<img src="/images/sydney.png"/>
+<img src="/images/liberty-pixelated.png"/>

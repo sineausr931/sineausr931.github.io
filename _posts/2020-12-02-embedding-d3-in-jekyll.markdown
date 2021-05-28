@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Embedding d3 in Jekyll"
-date:   2020-12-02 08:46:30 -0700
+title: "Embedding d3 in Jekyll"
+date: 2020-12-02 08:46:30 -0700
 tags: jekyll markdown d3
 ---
-What follows is a brute force implementation of displaying running javascript and d3 visualizations in a jekyll post. The methods used here are for illustration. A cleaner approach would be to store our javascript under the site's `_includes` directory. 3rd party libs could be imported via a header file, and loading limited to posts containing a [front matter](https://jekyllrb.com/docs/front-matter/) custom variable (e.g. `load_d3_libs: true`).
+What follows is a brute force implementation of displaying running javascript and d3 visualizations in a jekyll post. The methods used here are for illustration. A cleaner approach would be to store all 3rd-party javascript libraries under the site's `/assets` directory and conditionally import the `.js` files only in posts that contain a [front matter](https://jekyllrb.com/docs/front-matter/) custom variable (e.g. `load_d3_libs: true`).
+
+<a href="{{ site.baseurl }}{% post_url 2021-05-28-conditional-resource-inclusion-for-jekyll-minima %}">Read more</a> about conditional resource inclusion.
 
 <script src='https://d3js.org/d3.v4.min.js'></script>
 <script src='https://d3js.org/d3-scale-chromatic.v1.min.js'></script>

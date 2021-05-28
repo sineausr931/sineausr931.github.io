@@ -3,6 +3,7 @@ layout: post
 title:  "PreferenceFragmentCompat"
 date:   2021-02-17 00:00:00 -0800
 tags: Android PreferenceFragmentCompat PreferenceManager
+load_lightbox: true
 ---
 <style>
 .my_container::after {
@@ -21,16 +22,16 @@ Android's *[SharedPreferences](https://developer.android.com/reference/android/c
 
 <div class="my_container">
   <div class="my_screenshot">
-    <img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614285898.png"/>
+    <a href="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614285898.png" data-lightbox="screenshot_1"><img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614285898.png"/></a>
   </div>
   <div class="my_screenshot">
-    <img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348267.png"/>
+    <a href="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348267.png" data-lightbox="screenshot_2"><img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348267.png"/></a>
   </div>
   <div class="my_screenshot">
-    <img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348275.png"/>
+    <a href="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348275.png" data-lightbox="screenshot_3"><img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348275.png"/></a>
   </div>
   <div class="my_screenshot">
-    <img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348291.png"/>
+    <a href="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348291.png" data-lightbox="screenshot_4"><img src="https://sineausr931.github.io/SamplePreferences/doc/Screenshot_1614348291.png"/></a>
   </div>
 </div>
 
