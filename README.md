@@ -2,31 +2,32 @@
 
 Visit <a href="//sineausr931.github.io">sineausr931.github.io</a> to see the running site.
 
-### or, run on localhost
+Or, run on localhost:
 
 * run `bundle exec jekyll serve`
-* then, browse to [http://localhost:4000/](http://localhost:4000/)
+* browse to [http://localhost:4000/](http://localhost:4000/)
 
-### Jekyll SSG
+Jekyll [SSG](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators)
 
 * https://jekyllrb.com/docs/
 * https://github.com/jekyll/jekyll
 
-### Jekyll themes
+Jekyll themes
 
 * [Minima](https://github.com/jekyll/minima) (used on this site)
 
-### Markdown docs
+Markdown docs
 
 * [Original v1.0.1 at daringfireball.net](https://daringfireball.net/projects/markdown/)
 * [Extended markdown syntaxes](https://www.markdownguide.org/extended-syntax/)
 * [Github flavored markdown](https://github.github.com/gfm/)
 
-### Liquid tags
+Liquid tags
 
 * [Original by Shopify](https://shopify.github.io/liquid/)
 * [Jekyll-supported tags and filters](https://jekyllrb.com/docs/liquid/)
 
-### Liquid add-on gems
+Liquid add-on gems
 
 * [Jekyll::Gist](https://github.com/jekyll/jekyll-gist)
+* [Jekyll::Feed](https://github.com/jekyll/jekyll-feed)
