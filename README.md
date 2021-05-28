@@ -9,8 +9,8 @@ Or, run on localhost:
 
 Jekyll [SSG](https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators)
 
-* https://jekyllrb.com/docs/
-* https://github.com/jekyll/jekyll
+* [Documentation](https://jekyllrb.com/docs/)
+* [Source code](https://github.com/jekyll/jekyll)
 
 Jekyll themes
 
