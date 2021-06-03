@@ -43,7 +43,7 @@ Inside the *[onCreatePreferences](https://developer.android.com/reference/androi
 
 <a href="https://cs.android.com/androidx/platform/frameworks/support/+/androidx-main:preference/preference/src/main/java/androidx/preference/PreferenceFragmentCompat.java;l=161;drc=e865a9bd80c7d405a694750786977d0eb2012e0f;bpv=0"><img src="/images/csandroid-onCreate.png"/></a>
 
-Which means that any time there's a configuration change (e.g. rotation of the device), the *PreferenceScreen* needs to be recreated. For that reason, most of the code in the following *SettingsFragment.kt* example is dedicated to updating the preference summaries, either because of device configuration changes, or because of changes to the preference values through user interaction.
+Which means that any time there's a configuration change (e.g. rotation of the device), the *PreferenceScreen* needs to be recreated. Most of the code in the following *SettingsFragment.kt* example is dedicated to updating the preference summaries, either because of a device configuration change, or because of changes to the preference values via user interaction.
 
 {% gist 31dc7ef76d7eb3311b164c259b8d9140 SettingsFragment.kt %}
 
