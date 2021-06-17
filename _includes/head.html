@@ -12,4 +12,8 @@
   <link href="/assets/lightbox/lightbox.css" rel="stylesheet" />
   <script src="/assets/lightbox/lightbox-plus-jquery.js"></script>
   {%- endif -%}
+  {%- if page.load_highlightjs == true -%}
+  <link rel="stylesheet" href="/assets/highlightjs/atom-one-dark.min.css">
+  <script src="/assets/highlightjs/highlight.min.js"></script>
+  {%- endif -%}
 </head>
