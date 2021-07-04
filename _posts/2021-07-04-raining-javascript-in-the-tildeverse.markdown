@@ -18,7 +18,6 @@ display: block;
   top: 0;
 }
 </style>
-
 During a visit to the [Tildeverse](https://tildeverse.org/) this week, I ran into a recreation of the
 raining, green characters from [The Matrix](https://www.imdb.com/title/tt0133093/) films.
 The color palette used by most Tildeverse sites is [monochrome](https://tilde.club/), which I guess
