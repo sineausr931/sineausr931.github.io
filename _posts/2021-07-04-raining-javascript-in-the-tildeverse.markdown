@@ -56,7 +56,7 @@ function getDaCode() {
 
 Their solution is elegant and terse. They measure the window's width and height, calculate the number of columns based on font size, and randomize the number of rows in each drop once the bottom of the window is reached.  All drawn to the canvas's 2d context at a specified interval (~30ms).
 
-The code listed below is what's actually running up above, loaded from <a href="/assets/matrix/matrix.js">/assets/matrix/matrix.js</a> via a call to `XMLHttpRequest`.
+The code listed below is what's actually running up above. The displayed code is loaded from <a href="/assets/matrix/matrix.js">/assets/matrix/matrix.js</a> via a call to `XMLHttpRequest`.
 
 <pre><code class="language-javascript" id="source_code"></code></pre>
 
