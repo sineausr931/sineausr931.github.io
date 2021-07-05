@@ -54,9 +54,9 @@ function getDaCode() {
 </script>
 <script>getDaCode();</script>
 
-Their solution is elegant and terse. They measure the window's width and height, calculate the number of columns based on font size, and randomize the number of rows in each drop once the bottom of the window is reached.  All drawn to the canvas's 2d context at a specified interval (~30ms).
+Their solution is elegant and terse. They measure the window's width and height, calculate the number of columns based on font size, and randomize the number of rows to draw for each drop before resetting its position to the top of the canvas (producing a staggering effect after the initial downpour).  Animation is created by drawing to the canvas's 2d context at a specified interval (~30ms).
 
-The code listed below is what's actually running up above. The displayed code is loaded into the DOM from <a href="/assets/matrix/matrix.js">/assets/matrix/matrix.js</a> via a call to `XMLHttpRequest`, and highlighted using <a href="https://highlightjs.org/">highlightjs</a>.
+The code listed below is what's actually running up above. I didn't feel like updating this post every time the code was modified, so the displayed source is loaded into the DOM from <a href="/assets/matrix/matrix.js">/assets/matrix/matrix.js</a> via a call to `XMLHttpRequest` and highlighted for readability using the <a href="https://highlightjs.org/">highlightjs</a> library.
 
 <pre><code class="language-javascript" id="source_code"></code></pre>
 
