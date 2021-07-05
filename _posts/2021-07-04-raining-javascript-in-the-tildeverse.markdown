@@ -23,7 +23,7 @@ raining, green characters from [The Matrix](https://www.imdb.com/title/tt0133093
 The color palette used by most Tildeverse sites is [monochrome](https://tilde.club/), which I guess
 is sufficient for a cmdline-based culture.
 
-<div style="padding:0.5em; margin:1em 0em">
+<div style="padding:0.5em; margin:1em 0em; pointer-events: none;">
   <iframe style="width:100%; height:300px;" scrolling="no" src="https://worker.sineausr931.workers.dev" title="Matrix Rain"></iframe>
 </div>
 
@@ -54,7 +54,7 @@ function getDaCode() {
 </script>
 <script>getDaCode();</script>
 
-Their solution is elegant and terse. They measure the window's width and height, calculate the number of columns based on font size, and randomize the number of rows in each drop once the bottom of the window is reached.  All drawn to the page's 2d context at a specified interval (~30ms).
+Their solution is elegant and terse. They measure the window's width and height, calculate the number of columns based on font size, and randomize the number of rows in each drop once the bottom of the window is reached.  All drawn to the canvas's 2d context at a specified interval (~30ms).
 
 The code listed below is what's actually running, loaded from <a href="/assets/matrix/matrix.js">/assets/matrix/matrix.js</a> via a call to `XMLHttpRequest`.
 
